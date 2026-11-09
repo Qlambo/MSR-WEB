@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MSR TRUCK AND PLANT HIRE (Pty)LTD</title>
+  <link rel="icon" type="image/jpeg" href="MSR Logo.jpeg">
+  <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for industry icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+  <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config= {
+        theme:{
+            extend:{
+                colors:{
+                    msrblue:'#000039',
+                    msryellow:'#ffc40c',
+
+            
+                }
+            }
+        }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+<!--header/Navigation-->
+<header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm;flex-row justify-between items-center gap-4"></div>
+    <div class=" text center sm:text-left flex items-center gap-3">
+    <img src="MSR Logo.jpeg" alt="MSR Logo" class="h-14 w-auto object-contain">
+        <p class="text-sl font-semibold uppercase tracking-wider text-msrblue">MSR Truck and Plant Hire <span class="text-xs uppercase">(Pty) LTD </span></p>
+    </div>
+    <!--Dynamic Slogan-->
+    <div class="border-t-2 border-msrblue mb-3 w-full"></div>
+
+        <!-- Slogan from Flyer -->
+        <p class="text-sm sm:text-base font-black tracking-widest text-msrblue uppercase py-1 text-center w-full">
+            RELIABLE EQUIPMENT. DEPENDABLE SERVICE.
+        </p>
+
+            <!-- Bottom Divider Line -->
+            <div class="border-b-2 border-msrblue mt-3 w-full"></div>    
+</header>
+<!-- Hero Section -->
+ <section class="relative bg-msrBlue text-white overflow-hidden">
+    <!-- visual accent layer-->
+     <div class="absolute inset-0 bg-gradient-to-r from-msrblue via-slate-900 to transparent opacity-90 z-10"></div>
+    <!--backup placeholder image representing heavy machinery-->
+    <img src="Tipper truck.jpeg" alt="this a picture of a tipper truck" class="absolute inset-0 w-full h-full object-cover object-cover object-center">
+
+    <div class="relative max-w-7xl mx-auto px-4 py-24 sm;py-32 z-20 grid gri-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+            <span class="bg-msryellow text-msrblue text-xs font-bold uppercase px-3 py-1 rounded-full tracking-widest">Plant Hire</span>
+            <h2 class="text-4xl sm:text-5xl font-black mt-4 tracking-tight leading-tight">
+                Earthmoving & logistics solutions
+            </h2>
+            <p class="mt-4 text-lg sm:text-xl text-gray-200 max-w-lg">
+                MSR Truck and Plant Hire (Pty) Ltd is a leading provider of earthmoving and logistics solutions, offering a wide range of services to meet the needs of our clients.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-4">
+                <a href="https://wa.me/27832582915" target="_blank" class="bg-msryellow hover:bg-yellow-600 text-msrblue font-bold py-3 px-6 rounded-lg inline-flex items-center gap-2 transition duration-200 shadow-sm">
+                    <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+                <a href="#services" class="border border-white/30 hover:border-white text-white font-medium py-3 px-6 rounded-lg transition">
+                    View Our Services
+                </a>
+            
+            <!-- Call Us Button in Navbar -->
+                 <a href="tel:0832582915" class="bg-msrblue hover:bg-slate-800 text-white font-bold py-2.5 px-5 rounded-lg inline-flex items-center gap-2 transition duration-200 shadow-sm text-sm">
+                    <i class="fa-solid fa-phone"></i> Call Us
+                 </a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+ <section id="services" class="max-w-7xl mx-auto px-4 py-20">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+        <h3 class="text-3xl front-extrabold text-msrBlue">Our Services</h3>
+        <div class="w-16 h-1 bg-msrYellow mx-auto mt-4 rounded"></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <!--Service 1-->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+            <div class="w-14 h-14 bg-amber-50 rounded-lg flex items-center justify-center mb-6 text-msrBlue text-2xl">
+                <i class="fa-solid fa-truck-ramp-box"></i>
+            </div>
+            <h4 class="text-xl font-bold text-msrBlue mb-2">Tipper trucks</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">High-Capacity tipper trucks ready for material bulk transport, agggregate distribution,and site clearing operations.</p>
+        </div>
+        
+        <!--Service 2-->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+            <div class="w-14 h-14 bg-amber-50 rounded-lg flex items-center justify-center mb-6 text-msrBlue text-2xl">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <h4 class="text-xl font-bold text-msrBlue mb-2">Plant Hire</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">Reliable excavators, TLBs, and front-end loaders perfectly maintained to eliminate project downtime.</p>
+        </div>
+    
+    <!--Servive 3-->
+    <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+            <div class="w-14 h-14 bg-amber-50 rounded-lg flex items-center justify-center mb-6 text-msrBlue text-2xl">
+                <i class="fa-solid fa-road"></i>
+            </div>
+            <h4 class="text-xl font-bold text-msrBlue mb-2">Haulage</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">Long and short-distance heavy haulage services managed by highly trained operational logistics specialists.</p>
+        </div>
+   </div>
+ </section>
+
+  <!-- Professional Business Profile Section -->
+    <section class="bg-slate-900 text-white py-16 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="bg-slate-800/50 p-8 sm:p-12 rounded-2xl border border-slate-700/50 shadow-xl flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+                <div>
+                    <span class="text-xs uppercase tracking-widest text-msrYellow font-bold block mb-1">Company Leadership</span>
+                    <h3 class="text-2xl font-bold tracking-tight text-white">Stanley Ratala</h3>
+                    <p class="text-gray-400 font-medium text-sm">Director — MSR Truck and Plant Hire</p>
+                </div>
+
+                 <div class="w-full md:w-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-4">
+                    <a href="tel:0832582915" class="flex items-center gap-3 group text-gray-300 hover:text-white transition">
+                        <span class="w-10 h-10 rounded-lg bg-slate-700 flex items-center justify-center text-msrYellow group-hover:scale-105 transition"><i class="fa-solid fa-phone"></i></span>
+                        <div class="text-sm">
+                            <p class="text-gray-500 font-bold text-xs uppercase">Call / WhatsApp</p>
+                            <p class="font-semibold">083 258 2915</p>
+                        </div>
+                    </a>
+                    <a href="mailto:stanleyratala@me.com" class="flex items-center gap-3 group text-gray-300 hover:text-white transition">
+                        <span class="w-10 h-10 rounded-lg bg-slate-700 flex items-center justify-center text-msrYellow group-hover:scale-105 transition"><i class="fa-solid fa-envelope"></i></span>
+                        <div class="text-sm">
+                            <p class="text-gray-500 font-bold text-xs uppercase">Email Address</p>
+                            <p class="font-semibold">stanleyratala@me.com</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corporate Footer -->
+    <footer class="bg-slate-950 text-gray-500 text-xs py-8">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-6 text-center sm:text-left">
+            <div>
+                <p class="font-semibold text-gray-400">&copy; 2025 MSR Truck and Plant Hire (Pty) LTD. All Rights Reserved.</p>
+                <p class="mt-1 text-gray-600">Reliable Equipment. Dependable Service.</p>
+            </div>
+            <!-- Regulatory IDs from Card -->
+            <div class="bg-slate-900 px-4 py-3 rounded-lg border border-slate-850 text-gray-400 grid grid-cols-1 gap-1 text-left text-xs max-w-xs w-full sm:w-auto">\
+                <p><span class="font-bold text-gray-300">Reg No:</span> 2025/ 765341 / 07</p>
+                <p><span class="font-bold text-gray-300">VAT No:</span> 9035142323</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
